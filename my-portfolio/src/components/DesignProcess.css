@@ -1,0 +1,19 @@
+.design {
+    background-color: black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.design h1{
+    text-align: center;
+    color: white;
+}
+
+.design p {
+    color: white;
+    text-align: center;
+}
+
+.design h2 {
+    color:white;
+}

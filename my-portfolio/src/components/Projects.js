@@ -1,0 +1,19 @@
+import './Projects.css'
+
+export const Projects = () => {
+    return (
+        <>
+        <h1>Design Process</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras sed felis eget velit aliquet sagittis id consectetur. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Egestas maecenas pharetra convallis posuere morbi leo. Sollicitudin ac orci phasellus egestas tellus. At lectus urna duis convallis convallis. Eget mi proin sed libero enim sed faucibus turpis. Vulputate ut pharetra sit amet aliquam id diam. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Augue ut lectus arcu bibendum at varius vel.
+
+        A cras semper auctor neque vitae tempus quam pellentesque nec. Odio facilisis mauris sit amet massa. Sem fringilla ut morbi tincidunt augue interdum. Ac turpis egestas maecenas pharetra convallis posuere. Condimentum id venenatis a condimentum vitae. Urna id volutpat lacus laoreet non curabitur gravida. Eget gravida cum sociis natoque penatibus et. Vestibulum mattis ullamcorper velit sed ullamcorper morbi. Cras pulvinar mattis nunc sed blandit. Quam pellentesque nec nam aliquam. Arcu dui vivamus arcu felis bibendum ut. Ac tortor vitae purus faucibus ornare suspendisse sed. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Purus sit amet luctus venenatis lectus. In dictum non consectetur a erat nam at lectus urna. Sit amet cursus sit amet dictum sit. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Natoque penatibus et magnis dis.
+        
+        Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. At tellus at urna condimentum mattis pellentesque id. Adipiscing vitae proin sagittis nisl. Ipsum faucibus vitae aliquet nec ullamcorper. Semper eget duis at tellus at. Sit amet nisl purus in mollis nunc sed id semper. Magna eget est lorem ipsum dolor. Odio ut sem nulla pharetra. Tortor consequat id porta nibh venenatis cras sed felis. Felis donec et odio pellentesque diam volutpat. Eu mi bibendum neque egestas. Sit amet consectetur adipiscing elit duis. Eget arcu dictum varius duis at consectetur lorem. Donec massa sapien faucibus et molestie ac feugiat. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi.
+        
+        Id faucibus nisl tincidunt eget. Amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Eget duis at tellus at urna condimentum mattis. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Nibh praesent tristique magna sit amet. Nunc aliquet bibendum enim facilisis gravida neque convallis a. Diam donec adipiscing tristique risus. Consequat mauris nunc congue nisi. Ut ornare lectus sit amet est. Ipsum a arcu cursus vitae congue mauris rhoncus. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Condimentum id venenatis a condimentum vitae sapien.
+        
+        Ac turpis egestas sed tempus urna. Diam phasellus vestibulum lorem sed. Purus ut faucibus pulvinar elementum. Massa tempor nec feugiat nisl pretium. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Ut consequat semper viverra nam. Id aliquet lectus proin nibh nisl condimentum id venenatis a. Sed egestas egestas fringilla phasellus. Ipsum nunc aliquet bibendum enim facilisis. Tellus mauris a diam maecenas sed enim ut. Malesuada nunc vel risus commodo viverra. Sed velit dignissim sodales ut eu sem integer vitae. Ut diam quam nulla porttitor massa id neque aliquam.
+        </p>
+        </>
+    )
+}

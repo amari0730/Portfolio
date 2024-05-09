@@ -1,0 +1,44 @@
+
+
+.links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    gap: 150px;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+
+  .home, .dp, .projects, .resume {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none; /* Remove default underline */
+    font-family: copperplate;
+  }
+
+  .home::after, .dp::after, .projects::after, .resume::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Distance of underline from text */
+    width: 100%;
+    height: 2px; /* Thickness of the underline */
+    background-color: black; /* Color of the underline */
+    transform-origin: bottom right;
+    transform: scaleX(0); /* Initial state: invisible */
+    transition: transform 0.3s ease-in-out; /* Animation duration and easing */
+  }
+
+  .home:hover::after, .dp:hover::after, .projects:hover::after, .resume:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1); /* Final state: fully visible */
+  }
+
+  .home a, .dp a, .projects a, .resume a{
+    text-decoration: none;
+    color: black
+  }
