@@ -1,0 +1,70 @@
+.container {
+    background-color: black;
+}
+
+.process ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.role h2{
+    padding: 50px;
+}
+
+.container h1 {
+    text-align: start;
+    padding: 50px;
+}
+
+.preparation {
+    padding: 50px;
+}
+
+.preparation img {
+    width: 50%;
+}
+
+.observations {
+    padding: 50px;
+}
+
+.observations img {
+    width: 50%;
+}
+
+.questioning {
+    padding: 50px;
+}
+
+.questioning img {
+    width: 25%;
+}
+
+.personas {
+    padding: 50px;
+}
+
+.personas .graph {
+    display: flex;
+    justify-content: space-around;
+}
+
+.personas img {
+    width: 75%;
+}
+
+.storyboard img {
+    width: 50%;
+}
+
+.interface {
+    display: flex;
+}
+
+.interface img{
+    width: 50%;
+}
+
+span {
+    color: chocolate;
+}

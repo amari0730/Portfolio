@@ -1,10 +1,14 @@
 import img from '../1570748510155.jpeg'
 import './Header.css'
 import psimg from '../Screenshot 2024-05-08 at 8.38.37 PM.png'
-import himg from '../Screenshot 2024-05-08 at 8.48.26 PM.png'
-import iimg from '../Screenshot 2024-05-08 at 10.15.26 PM.png'
+import himg from '../Screenshot 2024-05-09 at 2.40.46 PM.png'
+import iimg from '../Screenshot 2024-05-09 at 2.23.54 PM.png'
+import { FaArrowAltCircleDown } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom'
 
-export const Home = () => {
+export const Home = ({navigateToPersonas, navigateToDevelopment, navigateToIterative}) => {
+    const navigate = useNavigate();
+
     return(
         <>
             <div className='header'>
@@ -38,10 +42,13 @@ export const Home = () => {
                 </div>
             </div>
             <div className='cases'>
-                <div className='case1'>
+                <h4 className='name'>Case Studies</h4>
+                <hr/>
+                <div className='case1' onClick={() => navigate('/personas')}>
                     <img src={psimg}/>
                     <div className='info'>
                     <h3 className='right'>Personas and Storyboarding</h3>
+
                     <p>
                         The purpose behind this assignment was to build a comprehensive understanding of user needs and
                         experiences through the development of personas from real-life observations, which quickly and effectively identifiyed a user's 
@@ -53,21 +60,18 @@ export const Home = () => {
                     </p>
                     </div>
                 </div>
-                <div className='case2'>
+                <div className='case2' onClick={() => navigate('/development')}>
                     <div className='info'>
                         <h3 className='left'>Development</h3>
                         <p>
                             The objective of assignment was to practice conducting competitive analysis between competitor companies, that what
                             I am able to learn how to identify strengths and weakness in design elements used by industry designers. And to create a 
-                            functional aggregator and filter interface using react, which allows us to practice using react as a frontend framework. Specifically
-                            for this project I chose to do a herbal store interface, as I myself am very interested in botanicals. I also chose to use
-                            a herbal store as my interface because I wanted to illustrate how using a filter and sorter for price and ingredients would
-                            provide an overall better user experience. 
+                            functional aggregator and filter interface using react, which allows us to practice using react as a frontend framework.
                         </p>
                     </div>
                     <img src={himg}/>
                 </div>
-                <div className='case3'>
+                <div className='case3' onClick={() => navigate('/iterative')}>
                 <img src={iimg}/>
                     <div className='info'>
                         <h3 className='left'>Iterative Design</h3>

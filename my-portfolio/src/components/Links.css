@@ -3,11 +3,9 @@
 .links ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    font-size: large;
-    gap: 150px;
+    justify-content: start;
+    font-size: xx-large;
     font-weight: bold;
-    margin: 20px;
   }
 
 

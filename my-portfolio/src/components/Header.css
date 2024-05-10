@@ -4,6 +4,8 @@
   padding:0;
   margin:0;
   box-sizing: border-box;
+  font-family: copperplate;
+  color:white;
 }
 
 
@@ -38,6 +40,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 50px;
   }
   
 .intro h2 {
@@ -92,6 +95,10 @@
   border-radius: 25%;
 }
 
+.wrapper p {
+  font-size: 50px;
+}
+
 .words {
   overflow: hidden;
 }
@@ -132,29 +139,82 @@
 
 .case1{
   display: flex;
-
+  align-items: center;
+  background-color: black;
+  padding: 40px;
 }
 
 .case1 img{
   width:70%;
+  margin: 50px;
 }
 
 .right {
   text-align: center;
+  padding:50px;
+}
+
+.info p {
+  padding: 50px;
 }
 
 .case2{
   display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 40px;
 
 }
 .case2 img {
-  width:60%;
-  height: 25%;
+  width:50%;
 }
 .left {
   text-align: center;
+  padding: 50px;
 }
 
 .case3 {
   display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 40px;
+}
+.case3 img {
+  width: 50%;
+}
+.cases h2 {
+  text-align: center;
+  background-color: black;
+  padding: 100px;
+}
+
+.info h3 {
+  color: #EA3CEA;
+}
+
+.cases h4 {
+  background-color: black;
+  text-align: start;
+  
+}
+
+h4 {
+  text-align: end;
+}
+
+.cases .numbers {
+  text-align: end;
+}
+
+.case1:hover, .case2:hover, .case3:hover {
+  background-color: white;
+  cursor:pointer;
+}
+
+.case1:hover p, .case2:hover p, .case3:hover p {
+  color:black;
+}
+
+.case1:hover h3, .case2:hover h3, .case3:hover h3 {
+  color:#4F0296;
 }

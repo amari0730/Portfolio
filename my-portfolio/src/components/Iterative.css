@@ -1,0 +1,74 @@
+.process img {
+    width:15%;
+}
+
+.research {
+    padding:50px;
+}
+
+.brief {
+    padding: 50px;
+}
+
+.briefs {
+    display: flex;
+}
+
+
+.brief img {
+    width:20%;
+}
+
+.flow1A {
+    padding:50px;
+}
+
+.flow1A img {
+    width: 300px;
+}
+
+.flow1B {
+    padding:50px;
+}
+
+.flow2B {
+    padding:50px;
+}
+
+.lofi {
+    padding:50px;
+}
+
+.lofi img {
+    width: 30%;
+}
+
+.protoype {
+    padding:50px;
+}
+
+.protoype img {
+    width: 30%;
+}
+
+.hifi {
+    padding: 50px;
+}
+
+.hifi img {
+    width:30%;
+}
+
+.learning {
+    padding:50px;
+}
+
+.flow {
+    display:flex;
+    justify-content: center;
+}
+
+.fi-cont {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,133 @@
+.container {
+    background-color: black;
+    text-align: center;
+}
+
+ul {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.logos {
+    flex-direction: row;
+}
+
+.logos img {
+    width: 200px;
+}
+
+.company-descriptions {
+    padding: 50px;
+}
+
+.feature span {
+    color:chocolate;
+    font-size: 25px;
+}
+
+.company span {
+    font-size: 30px;;
+}
+
+p {
+    font-size: 25px;;
+}
+
+.features {
+    padding: 50px;
+}
+
+.app img {
+    width: 50%;
+}
+
+.description {
+    padding: 50px;
+}
+
+.feature-description {
+    padding: 100px;
+    display: flex;
+}
+
+
+.link {
+    padding: 50px;
+}
+
+.link h3 {
+    color:yellow
+}
+
+.remove {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 50px;
+}
+
+.remove img {
+    align-self: start;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 50px;
+}
+
+.input img {
+    align-self: end;
+}
+
+
+.context-problem {
+    padding: 50px;
+}
+
+.context-problem h2 {
+    padding: 50px;
+}
+
+.research {
+    padding: 50px;
+}
+
+.research h2 {
+    padding: 50px;
+}
+.remove p{
+    text-align: start;
+}
+.input p{
+    text-align: end;
+}
+
+.link {
+    font-size: xx-large;
+}
+
+.link a {
+    color: red;
+}
+
+.solution, .learnings, .role {
+    padding: 100px;
+}
+
+
+.solution h2, .learnings h2, .role h2 {
+    padding: 50px;
+}
+
+.feature-description h4 {
+    color:chocolate;
+    font-size: 25px;
+}
