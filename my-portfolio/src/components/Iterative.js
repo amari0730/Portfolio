@@ -140,6 +140,10 @@ export const Iterative = () => {
                         <img src={lofi} />
                         <img src={lofi2} />
                     </div>
+                    <div className='a-ref'>
+                        <a href="https://www.figma.com/file/kLyrc4n6pVS0mjnVRz09rj/DriverAI?type=design&node-id=185-37&mode=design&t=cDS7A2Jtkl3M0w7L-0">Link to loFi</a>
+                        <a href="https://www.loom.com/share/7575fe9b3fc04eb88762ee8e41c9ed77?sid=fef3bf8a-31d8-4342-b689-58e44d8db7d0">Link to loFi Loom</a>
+                    </div>
                     <p>
                         The main implementation of the LoFi Design for the Dynamic Docs is the inclusion of the code block that 
                         contains both the suggested code and the out of date code. At the top of the page the user has an alert 
@@ -154,6 +158,9 @@ export const Iterative = () => {
                     <div className='fi-cont'>
                         <img src={lofi22} />
                         <img src={lofi23} />
+                    </div>
+                    <div className='a-ref'>
+                        <a href="https://www.figma.com/file/kLyrc4n6pVS0mjnVRz09rj/DriverAI?type=design&node-id=185-37&mode=design&t=cDS7A2Jtkl3M0w7L-0">Link to loFi 2</a>
                     </div>
                     <p>
                         The main thing that the founder wanted us to focus more on how we display updates, when the source code changes. 
@@ -177,6 +184,11 @@ export const Iterative = () => {
                         <img src={hifi0} />
                         <img src={hifi} />
                     </div>
+                    <div className='a-ref'>
+                        <a href="https://www.figma.com/file/kLyrc4n6pVS0mjnVRz09rj/DriverAI?type=design&node-id=0-1&mode=design&t=XjLk99O3vhjj9XZC-0">Link to hiFi</a>
+                        <a href="https://www.loom.com/share/8ea987a94469431e982a9a21a3c9bb20?sid=077d5aee-2a54-43db-80f2-29ba4ba76b4e">Link to hiFi Loom</a>
+                    </div>
+
                     <p>
                         For the final Hifi Design we decided to add more error markers in the code file tree (on the left-hand side of the Dynamic docs), 
                         this allows the person to have a visual indication of where exactly the out of sync code can be found. We also made sure that when an area of 
