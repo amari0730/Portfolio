@@ -11,7 +11,7 @@ import kio2 from '../Screenshot 2024-05-10 at 6.10.09 PM.png'
 export const Personas = () => {
     return (
         <div className="container">
-            <h1>Personas</h1>
+            <h1>Personas and Storyboarding</h1>
             <div className='context-problem'>
                 <h2>Context/Problem</h2>
                 <p>
